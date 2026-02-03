@@ -10,8 +10,8 @@ Scoop bucket with my own apps and apps that haven't been added to the official b
 After manifests have been committed and pushed, run the following:
 
 ```pwsh
-scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
-scoop install <bucketname>/<manifestname>
+scoop bucket add perryhq https://github.com/perryhq/perryhq-scoop
+scoop install perryhq/example
 ```
 
 ## How do I contribute new manifests?
